@@ -1,0 +1,206 @@
+{
+  "dashboardStats": [
+    {
+      "label": "PROJECTS COMPLETED",
+      "value": "9",
+      "description": "WEB & WEB APPS",
+      "intent": "positive",
+      "icon": "gear",
+      "direction": "up"
+    },
+    {
+      "label": "TECHNOLOGIES IN USE",
+      "value": "12+",
+      "description": "REACT, NEXT.JS, NODE.JS & MORE",
+      "intent": "positive",
+      "icon": "proccesor",
+      "direction": "up"
+    },
+    {
+      "label": "YEARS EXPERIENCE",
+      "value": "2+",
+      "description": "BUILDING EXCEPTIONAL WEB SOLUTIONS",
+      "intent": "neutral",
+      "icon": "boom",
+      "tag": "BASED IN LAGOS 🇳🇬"
+    }
+  ],
+  "chartData": {
+    "week": [
+      { "date": "06/07", "sales": 50000, "spendings": 30000, "coffee": 10000 },
+      { "date": "07/07", "sales": 250000, "spendings": 15000, "coffee": 30000 },
+      { "date": "08/07", "sales": 200000, "spendings": 50000, "coffee": 25000 },
+      { "date": "09/07", "sales": 280000, "spendings": 60000, "coffee": 45000 },
+      { "date": "10/07", "sales": 120000, "spendings": 20000, "coffee": 15000 },
+      { "date": "11/07", "sales": 180000, "spendings": 55000, "coffee": 20000 },
+      { "date": "12/07", "sales": 500000, "spendings": 35000, "coffee": 20000 },
+      { "date": "13/07", "sales": 130000, "spendings": 60000, "coffee": 10000 }
+    ],
+    "month": [
+      { "date": "Jan", "spendings": 45000, "sales": 180000, "coffee": 25000 },
+      { "date": "Feb", "spendings": 30000, "sales": 120000, "coffee": 20000 },
+      { "date": "Mar", "spendings": 65000, "sales": 280000, "coffee": 35000 },
+      { "date": "Apr", "spendings": 25000, "sales": 160000, "coffee": 18000 },
+      { "date": "May", "spendings": 80000, "sales": 350000, "coffee": 45000 },
+      { "date": "Jun", "spendings": 40000, "sales": 90000, "coffee": 25000 },
+      { "date": "Jul", "spendings": 70000, "sales": 220000, "coffee": 40000 },
+      { "date": "Aug", "spendings": 55000, "sales": 170000, "coffee": 30000 },
+      { "date": "Sep", "spendings": 60000, "sales": 200000, "coffee": 35000 },
+      { "date": "Oct", "spendings": 35000, "sales": 140000, "coffee": 22000 },
+      { "date": "Nov", "spendings": 75000, "sales": 340000, "coffee": 38000 },
+      { "date": "Dec", "spendings": 90000, "sales": 420000, "coffee": 50000 }
+    ],
+    "year": [
+      { "date": "2020", "spendings": 280000, "sales": 580000, "coffee": 150000 },
+      { "date": "2021", "spendings": 320000, "sales": 650000, "coffee": 180000 },
+      { "date": "2022", "spendings": 450000, "sales": 950000, "coffee": 250000 },
+      { "date": "2023", "spendings": 200000, "sales": 520000, "coffee": 120000 },
+      { "date": "2024", "spendings": 380000, "sales": 820000, "coffee": 200000 }
+    ]
+  },
+  "rebelsRanking": [
+    {
+      "id": 1,
+      "name": "JULYET PETERS",
+      "handle": "@React, TypeScript, Node.js",
+      "streak": "FEATURED PROJECT 🌟",
+      "points": 95,
+      "avatar": "/avatars/user_mati.png",
+      "featured": true,
+      "subtitle": "FEATURED PROJECT 🌟",
+      "link": "https://julyetpeters.com"
+    },
+    {
+      "id": 2,
+      "name": "DIREKTOR",
+      "handle": "@React, JavaScript, Node.js",
+      "streak": "",
+      "points": 148,
+      "avatar": "/avatars/user_krimson.png",
+      "link": "https://direktorapp.netlify.app"
+    },
+    {
+      "id": 3,
+      "name": "WORDSMITH",
+      "handle": "@React, TypeScript, Node.js",
+      "streak": "",
+      "points": 129,
+      "avatar": "/avatars/user_mati.png",
+      "link": "https://wordsmithapp.netlify.app"
+    },
+    {
+      "id": 4,
+      "name": "KEEPR",
+      "handle": "@React, TypeScript, Node.js",
+      "streak": "",
+      "points": 108,
+      "avatar": "/avatars/user_pek.png",
+      "link": "https://keeprng.netlify.app"
+    },
+    {
+      "id": 5,
+      "name": "PANASA",
+      "handle": "@React, TypeScript, Node.js",
+      "streak": "",
+      "points": 64,
+      "avatar": "/avatars/user_joyboy.png",
+      "link": "https://panafricanscrabble.com"
+    },
+    {
+      "id": 6,
+      "name": "PQ AUTOS",
+      "handle": "@React, TypeScript, Node.js",
+      "streak": "",
+      "points": 87,
+      "avatar": "/avatars/user_pek.png",
+      "link": "https://pqautos.com"
+    }
+  ],
+  "securityStatus": [
+    {
+      "title": "REACT",
+      "variant": "success"
+    },
+    {
+      "title": "NEXT.JS",
+      "variant": "success"
+    },
+    {
+      "title": "NODE.JS",
+      "variant": "warning"
+    },
+    {
+      "title": "TYPESCRIPT",
+      "variant": "success"
+    },
+    {
+      "title": "TAILWIND CSS",
+      "variant": "success"
+    },
+    {
+      "title": "SHADCN UI",
+      "variant": "warning"
+    },
+    {
+      "title": "POSTGRESQL",
+      "variant": "warning"
+    },
+    {
+      "title": "SUPABASE",
+      "variant": "warning"
+    },
+    {
+      "title": "HTML & CSS",
+      "variant": "success"
+    },
+    {
+      "title": "JAVASCRIPT",
+      "variant": "success"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "PROJECT DELIVERED",
+      "message": "E-commerce platform successfully deployed to production with 99.9% uptime.",
+      "timestamp": "2024-07-10T13:39:00Z",
+      "type": "success",
+      "read": false,
+      "priority": "medium"
+    },
+    {
+      "id": "notif-2",
+      "title": "CLIENT TESTIMONIAL",
+      "message": "Amazing work on the task management app! Exceeded all expectations and delivered on time.",
+      "timestamp": "2024-07-10T13:35:00Z",
+      "type": "info",
+      "read": false,
+      "priority": "low"
+    },
+    {
+      "id": "notif-3",
+      "title": "NEW SKILL ACQUIRED",
+      "message": "Completed advanced certification in TypeScript and system design patterns.",
+      "timestamp": "2024-07-10T12:15:00Z",
+      "type": "info",
+      "read": true,
+      "priority": "medium"
+    },
+    {
+      "id": "notif-4",
+      "title": "AVAILABILITY UPDATE",
+      "message": "Currently available for freelance projects and full-time opportunities.",
+      "timestamp": "2024-07-10T11:45:00Z",
+      "type": "info",
+      "read": true,
+      "priority": "high"
+    }
+  ],
+  "widgetData": {
+    "location": "Lagos, Nigeria",
+    "timezone": "UTC+1",
+    "temperature": "28°C",
+    "weather": "Sunny",
+    "date": "Thursday, July 10th, 2025"
+  }
+}
