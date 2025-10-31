@@ -60,7 +60,7 @@ export default function DashboardStat({
   return (
     <Card className="relative overflow-hidden">
       <CardHeader className="flex items-center justify-between">
-        <CardTitle className="flex items-center gap-2.5">
+        <CardTitle className="flex items-center gap-2.5 font-normal">
           <Bullet />
           {label}
         </CardTitle>
@@ -69,7 +69,7 @@ export default function DashboardStat({
 
       <CardContent className="bg-accent flex-1 pt-2 md:pt-6 overflow-clip relative">
         <div className="flex items-center">
-          <span className="text-4xl md:text-5xl font-display">
+          <span className="text-4xl md:text-5xl font-display font-normal">
             {isNumeric ? (
               <NumberFlow
                 value={numericValue}
@@ -89,7 +89,7 @@ export default function DashboardStat({
 
         {description && (
           <div className="justify-between">
-            <p className="text-xs md:text-sm font-medium text-muted-foreground tracking-wide">
+            <p className="text-xs md:text-sm font-light text-muted-foreground tracking-wide">
               {description}
             </p>
           </div>
@@ -153,7 +153,7 @@ const Arrow = ({ direction, index }: ArrowProps) => {
         animationTimingFunction: "cubic-bezier(0.4, 0.0, 0.2, 1)",
       }}
       className={cn(
-        "text-center text-5xl size-14 font-display leading-none block",
+        "text-center text-5xl size-14 font-display leading-none block font-normal",
         "transition-all duration-700 ease-out",
         "animate-marquee-pulse",
 

@@ -30,12 +30,11 @@ export interface RebelRanking {
   avatar: string;
   featured?: boolean;
   subtitle?: string;
+  link: string; // Added this property
 }
 
 export interface SecurityStatus {
   title: string;
-  value: string;
-  status: string;
   variant: "success" | "warning" | "destructive";
 }
 

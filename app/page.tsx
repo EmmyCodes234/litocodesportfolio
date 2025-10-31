@@ -32,10 +32,10 @@ export default function DashboardOverview() {
         id="overview"
         className="mb-8 py-6 px-6 rounded-lg border border-primary/20 bg-gradient-to-br from-primary/5 to-transparent"
       >
-        <h2 className="text-2xl md:text-3xl font-display font-bold mb-3 text-foreground">
+        <h2 className="text-2xl md:text-3xl font-display font-normal mb-3 text-foreground">
           Crafting Digital Experiences
         </h2>
-        <p className="text-sm md:text-base text-muted-foreground leading-relaxed max-w-2xl">
+        <p className="text-sm md:text-base text-muted-foreground leading-relaxed max-w-2xl font-light">
           Full-stack web developer specializing in building scalable, high-performance applications. With expertise in
           React, Next.js, and modern web technologies, I turn ideas into elegant solutions that users love.
         </p>
@@ -61,7 +61,7 @@ export default function DashboardOverview() {
       <div id="projects" className="mb-6">
         <div className="flex items-center gap-2 mb-4">
           <div className="w-1 h-6 rounded-full bg-primary" />
-          <h3 className="text-sm font-display font-semibold tracking-wide text-foreground">
+          <h3 className="text-sm font-display font-normal tracking-wide text-foreground">
             FEATURED WORK & CAPABILITIES
           </h3>
         </div>
@@ -78,7 +78,7 @@ export default function DashboardOverview() {
       <div id="contact" className="mb-8">
         <div className="flex items-center gap-2 mb-6">
           <div className="w-1 h-6 rounded-full bg-primary" />
-          <h3 className="text-sm font-display font-semibold tracking-wide text-foreground">GET IN TOUCH</h3>
+          <h3 className="text-sm font-display font-normal tracking-wide text-foreground">GET IN TOUCH</h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -89,10 +89,10 @@ export default function DashboardOverview() {
                 <EmailIcon className="size-6 text-foreground" />
               </div>
               <div className="flex-1">
-                <h4 className="text-sm font-display font-semibold text-foreground mb-2">Email</h4>
+                <h4 className="text-sm font-display font-normal text-foreground mb-2">Email</h4>
                 <a
                   href="mailto:litocodes@gmail.com"
-                  className="text-muted-foreground hover:text-foreground font-mono text-sm break-all transition-colors"
+                  className="text-muted-foreground hover:text-foreground font-mono text-sm break-all transition-colors font-light"
                 >
                   litocodes@gmail.com
                 </a>
@@ -114,10 +114,10 @@ export default function DashboardOverview() {
                 </svg>
               </div>
               <div className="flex-1">
-                <h4 className="text-sm font-display font-semibold text-foreground mb-2">Phone</h4>
+                <h4 className="text-sm font-display font-normal text-foreground mb-2">Phone</h4>
                 <a
                   href="tel:+2348136632593"
-                  className="text-muted-foreground hover:text-foreground font-mono text-sm transition-colors"
+                  className="text-muted-foreground hover:text-foreground font-mono text-sm transition-colors font-light"
                 >
                   +234 813 6632 593
                 </a>

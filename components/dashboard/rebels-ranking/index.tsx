@@ -27,7 +27,7 @@ export default function RebelsRanking({ rebels }: RebelsRankingProps) {
               <div className="flex items-center gap-3 w-full">
                 <div
                   className={cn(
-                    "flex items-center justify-center rounded text-sm font-bold px-1.5",
+                    "flex items-center justify-center rounded text-sm font-normal px-1.5", // Changed from font-medium to font-normal
                     rebel.featured
                       ? "h-10 bg-primary text-primary-foreground"
                       : "h-8 bg-secondary text-secondary-foreground",
@@ -41,15 +41,15 @@ export default function RebelsRanking({ rebels }: RebelsRankingProps) {
                   <div className="flex flex-col flex-1">
                     <div className="flex items-baseline gap-2">
                       <span
-                        className={cn("font-display", rebel.featured ? "text-xl md:text-2xl" : "text-lg md:text-xl")}
+                        className={cn("font-display font-normal", rebel.featured ? "text-xl md:text-2xl" : "text-lg md:text-xl")}
                       >
                         {rebel.name}
                       </span>
-                      <span className="text-muted-foreground text-xs md:text-sm">{rebel.handle}</span>
+                      <span className="text-muted-foreground text-xs md:text-sm font-light">{rebel.handle}</span>
                     </div>
-                    {rebel.subtitle && <span className="text-sm text-muted-foreground italic">{rebel.subtitle}</span>}
+                    {rebel.subtitle && <span className="text-sm text-muted-foreground italic font-light">{rebel.subtitle}</span>}
                     {rebel.streak && !rebel.featured && (
-                      <span className="text-sm text-muted-foreground italic">{rebel.streak}</span>
+                      <span className="text-sm text-muted-foreground italic font-light">{rebel.streak}</span>
                     )}
                   </div>
                 </div>
